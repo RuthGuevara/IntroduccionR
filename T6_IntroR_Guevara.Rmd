@@ -1,5 +1,5 @@
 ---
-title: "T6_INTROR"
+title: "T6_IntroR"
 author: "Guevara Ruth"
 date: '2022-02-27'
 output: 
