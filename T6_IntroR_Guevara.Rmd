@@ -1,0 +1,29 @@
+---
+title: "T6_INTROR"
+author: "Guevara Ruth"
+date: '2022-02-27'
+output: 
+  html_document:
+    mathjax: "http://example.com/MathJax.js"
+    self_contained: true
+    fig_height: 6
+    fig_width: 8
+    theme: journal
+    highlight: zenburn
+    toc: yes
+    toc_depth: 3 
+    toc_float:
+      collapsed: no
+      smooth_scrool: yes
+---
+
+# TAREA 1: TIPOS DE DATOS
+## Literal 1. Crear un identificador de nombre "ciudad" y se asigna una: 
+```{r l1}
+ciudad <- "Ambato"
+print (ciudad)
+```
+
+
+
+
