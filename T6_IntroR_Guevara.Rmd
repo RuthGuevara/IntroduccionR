@@ -29,6 +29,13 @@ Se creo un identificador de nombre "pais_andes" y se asigno un valor los nombres
 pais_andes <- c("Ecuador", "Bolivia", "Argentina", "Perú", "Colombia", "Chile", "Venezuela")
 print(pais_andes)
 ```
-
-
+## Literal 3.Dataframe 
+Se creo un dataframe con 12 eventos (files) y 5 variables (columnas), cada columna debe tener diferentes tipos de datos (entero, decimal, caracter, logico).
+```{r l3}
+poblacion_países_america <- data.frame(identador = seq(1:12), 
+                                norte_sur = as.factor(c(rep(0, 10), 1, 1)), 
+                                países = c("Ecuador", "Argentina", "USA", "Mexico", "Brasil", "Colombia", "Bolivia", "Chile", "Guyana", "Paraguay", "Perú", "Surinam"),
+                                poblacion = c( 17.64, 45.38, 329.5, 128.9, 212.6, 50.88, 11.67, 19.12, 0.79, 7.13, 32.97, 0.58)) #MILLONES
+print(poblacion_países_america)
+```
 
