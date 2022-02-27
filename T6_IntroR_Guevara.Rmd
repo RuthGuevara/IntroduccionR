@@ -23,7 +23,12 @@ output:
 ciudad <- "Ambato"
 print (ciudad)
 ```
-
+## Literal 2. Identificador "pais_andes" 
+Se creo un identificador de nombre "pais_andes" y se asigno un valor los nombres de los países por donde cruza la cordillera de Los Andes.
+```{r l2}
+pais_andes <- c("Ecuador", "Bolivia", "Argentina", "Perú", "Colombia", "Chile", "Venezuela")
+print(pais_andes)
+```
 
 
 
